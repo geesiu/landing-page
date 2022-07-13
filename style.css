@@ -30,7 +30,7 @@ button {
     color: #e6e7eb;
     padding: 6px 16px;
     border: 10px;
-    border-color: #e6e7eb;
+    border-color: solid #e6e7eb;
 }
 
 .container {
@@ -64,7 +64,8 @@ button {
     font-weight: 900;
 }
 
-.hero-2 {
+.hero-2,
+.sign {
     color: #e5e7eb;
 }
 
@@ -155,4 +156,50 @@ h2 {
     justify-content: flex-end;
     font-weight: 800;
     width: 700px;
+}
+
+.white {
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue {
+    display: flex;
+    width: 1100px;
+    height: 110px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-blue {
+    line-height: .1;
+    padding-top: 10px; 
+}
+
+.action {
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 24px
+}
+
+.button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e6e7eb;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #f9faf8;
 }
